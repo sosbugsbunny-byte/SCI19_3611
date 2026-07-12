@@ -20,5 +20,3 @@ Run python autograder.py
 def add(a, b):
     result = a + b
     return result
-    "*** YOUR CODE HERE ***"
-    return 0
