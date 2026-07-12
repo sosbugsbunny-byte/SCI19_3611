@@ -1,5 +1,5 @@
-#Student ID: B6722241
-#Name: Lalita Romlamduan
+# Student ID: B6722241
+# Name: Lalita Romlamduan
 
 # Python tutorial
 
