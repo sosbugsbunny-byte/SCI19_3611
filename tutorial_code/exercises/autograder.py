@@ -85,8 +85,8 @@ def readCommand(argv):
 
 # confirm we should author solution files
 def confirmGenerate():
-    print('WARNING: this action will overwrite any solution files.')
-    print('Are you sure you want to proceed? (yes/no)')
+    print('WARNING: this action will overwrite any solution files. - autograder.py:88')
+    print('Are you sure you want to proceed? (yes/no) - autograder.py:89')
     while True:
         ans = sys.stdin.readline().strip()
         if ans == 'yes':
@@ -94,7 +94,7 @@ def confirmGenerate():
         elif ans == 'no':
             sys.exit(0)
         else:
-            print('please answer either "yes" or "no"')
+            print('please answer either "yes" or "no" - autograder.py:97')
 
 
 # TODO: Fix this so that it tracebacks work correctly
@@ -189,12 +189,12 @@ def splitStrings(d):
 
 def printTest(testDict, solutionDict):
     pp = pprint.PrettyPrinter(indent=4)
-    print("Test case:")
+    print("Test case: - autograder.py:192")
     for line in testDict["__raw_lines__"]:
-        print("   |", line)
-    print("Solution:")
+        print("| - autograder.py:194", line)
+    print("Solution: - autograder.py:195")
     for line in solutionDict["__raw_lines__"]:
-        print("   |", line)
+        print("| - autograder.py:197", line)
 
 
 def runTest(testName, moduleDict, printTestCase=False, display=None):
@@ -236,7 +236,7 @@ def getTestSubdirs(testParser, testRoot, questionToGrade):
     if questionToGrade != None:
         questions = getDepends(testParser, testRoot, questionToGrade)
         if len(questions) > 1:
-            print('Note: due to dependencies, the following tests will be run: %s' % ' '.join(questions))
+            print('Note: due to dependencies, the following tests will be run: %s - autograder.py:239' % ' '.join(questions))
         return questions
     if 'order' in problemDict:
         return problemDict['order'].split()
