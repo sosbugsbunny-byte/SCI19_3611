@@ -1,3 +1,6 @@
+#Student ID: B6722241
+#Name: Lalita Romlamduan
+
 # Python tutorial
 
 Programming projects will be done in Python 3.8.
