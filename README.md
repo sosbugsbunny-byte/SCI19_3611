@@ -223,9 +223,14 @@ Many thanks for contributions over the years. I got bug reports, corrected code,
 
 ## การบ้านครั้งที่ 1 : Python Tutorial
 
-- ✅ q1: addition.py
-- ✅ q2: buyLotsOfFruit.py
-- ✅ q3: shopSmart.py
+- ✅ python_tutorial / q1: addition.py
+- ✅ python_tutorial / q1: q2: buyLotsOfFruit.py
+- ✅ python_tutorial / q1: q3: shopSmart.py
 
+---
+
+## การบ้านครั้งที่ 2 : AIMA
+
+- ✅ aima/HW2.ipynb
 ---
 >>>>>>> 4f786a44975d64a19b653ad70a5be2a11a1d9a28
