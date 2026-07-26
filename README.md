@@ -14,8 +14,13 @@
 
 ## การบ้านครั้งที่ 1 : Python Tutorial
 
-- ✅ q1: addition.py
-- ✅ q2: buyLotsOfFruit.py
-- ✅ q3: shopSmart.py
+- ✅ python_tutorial / q1: addition.py
+- ✅ python_tutorial / q1: q2: buyLotsOfFruit.py
+- ✅ python_tutorial / q1: q3: shopSmart.py
 
+---
+
+## การบ้านครั้งที่ 2 : AIMA
+
+- ✅ aima/HW2.ipynb
 ---
